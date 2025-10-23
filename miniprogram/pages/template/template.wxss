@@ -1,0 +1,16 @@
+/* pages/template/template.wxss */
+.message-group{
+  height: 50px;
+  line-height: 50px;   /*line-height: 实现文本垂直居中*/
+  padding: 10px;
+  border-bottom: 1px solid hsl(0, 0%, 89%);
+}
+.message-group .time{
+  margin-left: 10px;
+}
+
+.message-group .friend{
+  margin-left: 10px;
+  font-size: 15px;
+  color: brown;
+}

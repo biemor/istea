@@ -1,0 +1,155 @@
+<view class="container">
+<!-- 固定导航栏 -->
+<view class="top">
+<view class="top-text">
+  <view class="h1">自取</view>
+  <view class="top-xian"></view>
+  <view class="h1">系外送</view>
+  <view class="search"></view>
+</view>
+<view class="add">
+<view class="addtop">
+
+<view class="button" bindtap="getLocation">广东学院店></view>
+</view>
+<view class="addbottom">
+<view class="dibiao"></view>
+<view class="juli">距离您3km</view>
+</view>
+<view class="top-swi">
+  <view id="p1">免费开通[学子卡]88折喝喜茶</view>
+</view>
+<view class="picture"></view>
+</view>
+
+
+
+</view>
+
+<!-- 菜单栏 -->
+<view class="allmenu">
+<!-- 左边部分 -->
+<view class="lm">
+<view class="lm1"><image src="https://s1.ax1x.com/2023/06/15/pCudia8.png"></image>时令鲜果</view>
+<view class="lm1">灵感上新</view>
+<view class="lm1">清爽水果茶</view>
+<view class="lm1">浓郁牛乳茶</view>
+<view class="lm1">清爽茗茶</view>
+<view class="lm1">经典果茶</view>
+<view class="lm1">吃点小吃</view>
+<view class="lm1">热饮推荐</view>
+<view class="lm1">小料</view>
+<view class="lm1">提示</view>
+</view>
+<!-- 右边部分 -->
+<view class="rm">
+<view class="rm1">
+  <view class="p1"><image src="https://s1.ax1x.com/2023/06/15/pCudia8.png"></image>时令鲜果</view>
+  <view class="milk">
+  <view class="ima1"><image src="https://s1.ax1x.com/2023/06/15/pCurGuj.jpg"/></view>
+  <view class="con">
+  <view class="h2">霸王柠檬红茶</view>
+  <view class="p2">纯正的红茶和高山采摘的柠檬泡出清香。</view>
+  <view class="price">￥7</view>
+  </view>
+  </view>
+  <view class="milk">
+  <view class="ima1"><image src="https://s1.ax1x.com/2023/06/15/pCu6uU1.jpg"/></view>
+  <view class="con">
+  <view class="h2">抹茶奶盖</view>
+  <view class="p2">抹茶盖上奶盖把甜甜的奶香盖进梦里。</view>
+  <view class="price">￥16</view>
+  </view>
+  </view>
+  <view class="milk">
+  <view class="ima1"><image src="https://s1.ax1x.com/2023/06/15/pCu6nER.jpg"/></view>
+  <view class="con">
+  <view class="h2">杨枝甘露</view>
+  <view class="p2">芒果和柚子的爱情就像甘露一样清甜。</view>
+  <view class="price">￥17</view>
+  </view>
+  </view>
+  <view class="milk">
+  <view class="ima1"><image src="https://s1.ax1x.com/2023/06/15/pCu6K4x.jpg"/></view>
+  <view class="con">
+  <view class="h2">多肉葡萄</view>
+  <view class="p2">多肉和葡萄一样圆滚滚的，是多肉也是葡萄。</view>
+  <view class="price">￥17</view>
+  </view>
+  </view>
+   <view class="milk">
+  <view class="ima1"><image src="https://s1.ax1x.com/2023/06/15/pCu6eb9.jpg"/></view>
+  <view class="con">
+  <view class="h2">草莓甘露</view>
+  <view class="p2">芒果发现原来草莓才是它的最爱，所以抛弃了柚子。</view>
+  <view class="price">￥20</view>
+  </view>
+  </view>
+  
+
+
+
+
+
+
+</view>
+<view class="rm1">
+  <view class="p1"><image src="https://s1.ax1x.com/2023/06/15/pCudia8.png"></image>灵感上新</view>
+  <view class="milk">
+  <view class="ima1"><image src="https://s1.ax1x.com/2023/06/15/pCurGuj.jpg"/></view>
+  <view class="con">
+  <view class="h2">霸王柠檬红茶</view>
+  <view class="p2">纯正的红茶和高山采摘的柠檬泡出清香。</view>
+  <view class="price">￥7</view>
+  </view>
+  </view>
+  <view class="milk">
+  <view class="ima1"><image src="https://s1.ax1x.com/2023/06/15/pCu6uU1.jpg"/></view>
+  <view class="con">
+  <view class="h2">抹茶奶盖</view>
+  <view class="p2">抹茶盖上奶盖把甜甜的奶香盖进梦里。</view>
+  <view class="price">￥16</view>
+  </view>
+  </view>
+  <view class="milk">
+  <view class="ima1"><image src="https://s1.ax1x.com/2023/06/15/pCu6nER.jpg"/></view>
+  <view class="con">
+  <view class="h2">杨枝甘露</view>
+  <view class="p2">芒果和柚子的爱情就像甘露一样清甜。</view>
+  <view class="price">￥17</view>
+  </view>
+  </view>
+  <view class="milk">
+  <view class="ima1"><image src="https://s1.ax1x.com/2023/06/15/pCu6K4x.jpg"/></view>
+  <view class="con">
+  <view class="h2">多肉葡萄</view>
+  <view class="p2">多肉和葡萄一样圆滚滚的，是多肉也是葡萄。</view>
+  <view class="price">￥17</view>
+  </view>
+  </view>
+   <view class="milk">
+  <view class="ima1"><image src="https://s1.ax1x.com/2023/06/15/pCu6eb9.jpg"/></view>
+  <view class="con">
+  <view class="h2">草莓甘露</view>
+  <view class="p2">芒果发现原来草莓才是它的最爱，所以抛弃了柚子。</view>
+  <view class="price">￥20</view>
+  </view>
+  </view>
+  
+
+
+
+
+
+
+</view>
+
+
+
+</view>
+
+
+
+
+</view>
+</view>

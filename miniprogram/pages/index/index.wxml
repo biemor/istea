@@ -1,0 +1,77 @@
+<view class="container">
+<swiper class="swi" interval="5000" autoplay="true" circular="true">
+<swiper-item class="swio"><image class="swimg" mode="widthFix" src="https://s1.ax1x.com/2023/04/14/ppxLqm9.jpg" /></swiper-item>
+<swiper-item class="swio"><image class="swimg" mode="widthFix" src="https://s1.ax1x.com/2023/04/14/ppxLTlF.jpg" /></swiper-item>
+<swiper-item class="swio"><image class="swimg" mode="widthFix" src="https://s1.ax1x.com/2023/04/14/ppxL7y4.jpg" /></swiper-item>
+</swiper>
+<view class="content">
+   <view class="top">
+   <view class="top1">
+   <view class="user">
+   <view class="user1">
+   <view class="h1">小洋</view> <view class="sha" ><view class="p" bindtap="jumpOne">进阶贵宾</view></view>
+  </view> 
+   <view class="user2">
+   <view class="p1"bindtap="jumpOne" >系茶券</view><view class="p3">0</view>
+   <view class="p2" bindtap="jumpOne">积分</view><view class="p3">10</view>
+   </view>
+   </view>
+   <view class="ima1" ><image class="ima"  src="https://s1.ax1x.com/2023/04/14/ppxOimd.png"/></view>
+   </view> <view class="barl"></view>
+   <view class="top-bar">
+   <view class="bar1">
+   <view class="h2">我的特权</view>
+   <view class="p4">您有2项待使用特权,开启提醒不错过</view>
+   <view class="sha1"><image class="imajump" src="https://s1.ax1x.com/2023/04/20/p9k807n.png"></image></view>
+   </view>
+   </view>
+   
+</view>
+ 
+   <view class="onehead">
+   <view class="oh-top">
+   <view class="h3" bindtap="tobuy">到店自取<view class="p5">提前下单免排队</view></view>
+   <view class="sha2"></view>
+   <image class="ima2"  src="https://s1.ax1x.com/2023/04/14/ppxL5WT.png"/>
+  <view class="imal2" bindtap="tobuy"><view class="h3" >系外送<view class="p5">随时送喜到家</view></view></view>
+   </view>
+   </view>
+   <view class="onehead-two">
+   <scroll-view scroll-x="true" scroll-with-animation="true" enable-flex="true" class="oh-bar">
+     <view class="oh1">
+     <image class="ima3" src="https://s1.ax1x.com/2023/04/14/ppxLoSU.png"></image>
+     <view class="p6">阿系社群</view>
+     </view>
+     <view class="oh1">
+     <image class="ima3" src="https://s1.ax1x.com/2023/04/14/ppxLoSU.png"></image>
+     <view class="p6">阿系社群</view>
+     </view>
+     <view class="oh1">
+     <image class="ima3" src="https://s1.ax1x.com/2023/04/14/ppxLoSU.png"></image>
+     <view class="p6">阿系社群</view>
+     </view>
+     <view class="oh1">
+     <image class="ima3" src="https://s1.ax1x.com/2023/04/14/ppxLoSU.png"></image>
+     <view class="p6">阿系社群</view>
+     </view>
+     <!-- <view class="oh1"> 学子卡</view>
+     <view class="oh1">喜卡</view>
+     <view class="oh1">一起喝</view>
+     <view class="oh1">阿喜团餐</view> -->
+   </scroll-view>
+
+   </view>
+   
+
+   
+   <view class="twohead">
+   <view class="twohead-h1">评价</view>
+   <import src="../template/template.wxml"/>
+<template is="message" data="{{friend:'小何',time:'奶茶很好喝'}}"></template>
+<template is="message" data="{{friend:'小李',time:'奶茶很好喝'}}"></template>
+<template is="message" data="{{friend:'小张',time:'奶茶很好喝'}}"></template>
+   </view>
+   <view class="threehead"></view>
+   <view class="fourhead"></view>
+</view>
+</view>

@@ -1,0 +1,90 @@
+.top{
+  height: 40%;
+  width:100%;
+  background-image: url('https://s1.ax1x.com/2023/04/14/ppxLTlF.jpg');
+}
+.top-text{
+  display: flex;
+  padding-top: 10%;
+}
+.top-xian{
+  margin-left: 5%;
+  border-left: 1px solid rgb(202, 199, 199);
+}
+.h1{
+  color: white;
+  margin-left: 5%;
+}
+.add{
+  color: white;
+  padding: 5%;
+}
+.addtop{
+  display: flex;
+}
+
+.top-swi{
+  padding-top: 3%;
+}
+#p1{
+  font-size: 12px;
+}
+
+/* 菜单栏 */
+.allmenu{
+  display: flex;
+  width: 100%;
+}
+/* 左边部分 */
+.lm{
+  width: 25%;
+  height: 1000px;
+  /* background-color: gray; */
+  flex-direction: column;
+}
+.lm1{
+  padding:15px;
+  font-size: 15px;
+}
+
+.lm image{
+  width: 25px;
+  height: 25px;
+}
+
+/* 右边部分 */
+.rm{
+  width: 75%;
+}
+.p1{
+  font-size: 20px;
+  font-family: 黑体;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+.p1 image{
+  width: 27px;
+  height: 27px;
+}
+.milk{
+  padding-top: 10px;
+  display: flex;
+  padding-right: 10%;
+}
+.h2{
+  font-size: 16px;
+  font-family:等线;
+  font-weight: bold;
+}
+.p2{
+  padding-top: 8px;
+  font-size: 12px;
+}
+.ima1 image{
+  width:80px;
+  height: 80px;
+  padding:5px
+}
+.price{
+  padding-top: 5px;
+}

@@ -1,0 +1,32 @@
+<view class="container">
+<!-- 顶部 -->
+<view class="top">
+<view class="h1">
+<view class="lh1">茶饮鲜食
+<view class="lhl"></view></view>
+<view class="rh1">系茶百货</view>
+</view>
+</view>
+<!-- 内容区域 -->
+<view class="content">
+<view class="card">
+<view class="lcard">
+<view class="ch1">广州中华广场店</view>
+<view class="cp1">2022-06-05 11：08：39</view>
+<image src="https://s1.ax1x.com/2023/06/15/pCurGuj.jpg"></image>
+</view>
+<view class="rcard">
+<view class="over">已完成</view>
+<view class="price">￥7</view>
+<view class="num">共1件</view>
+</view>
+
+
+
+</view>
+
+</view>
+
+
+
+</view>
